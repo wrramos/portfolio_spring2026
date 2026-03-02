@@ -1,17 +1,25 @@
 
+
+
+h1 {
+    font-family: "Bowlby One", sans-serif;
+    font-size: 25px;
+    text-transform : lowercase;
+    color: black;
+    
+}
+
 body {
     background-color: #e6bed5;
+    text-align: center;
     padding-left: 70px;
     padding-right: 70px;
-    text-align: center;
 }
 
 
-
-
-
 nav a {
-    text-transform : uppercase;
+    font-family: "Bowlby One", sans-serif;
+    text-transform : lowercase;
     text-decoration: none;
     padding: 35px;
     align-items: center;
@@ -19,11 +27,15 @@ nav a {
 }
 
 footer { 
-    background-color:black;
-    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-color:#efead5;
+    color: black;
 }
 
 div.contact a{
     text-decoration: none;
-    color: white;
+    color: black;
 }

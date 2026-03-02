@@ -5,11 +5,9 @@ body {
     text-align: center;
 }
 
-
-
-
 nav a {
-    text-transform : uppercase;
+    font-family: "Bowlby One", sans-serif;
+    text-transform : lowercase;
     text-decoration: none;
     padding: 35px;
     align-items: center;
