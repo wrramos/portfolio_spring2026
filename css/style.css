@@ -15,6 +15,12 @@ body {
     padding-right: 70px;
 }
 
+p {
+    font-family: "Story Script", sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
 
 nav a {
     font-family: "Bowlby One", sans-serif;

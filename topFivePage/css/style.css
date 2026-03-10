@@ -15,7 +15,12 @@ nav a {
     color: black;
 }
 
-
+p {
+    font-family: "Story Script", sans-serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
 
 h1 {
     
