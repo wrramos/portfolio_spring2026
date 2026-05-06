@@ -12,8 +12,8 @@ body {
     font-family: "Spline Sans", sans-serif;
     background-color: #e6bed5;
     text-align: center;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 section.bio {
@@ -29,7 +29,7 @@ nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
     text-decoration: none;
-    padding: 35px;
+    padding: 45px;
     align-items: center;
     color: black;
 }
@@ -37,8 +37,13 @@ nav a {
 nav {
     color: black;
     display: inline-flex;
-    gap: 20px;
+    gap: 30px;
 }
+
+nav a:hover {
+    color: #e6bed5;
+}
+
 
 section.home {
     padding: 5px;
@@ -65,16 +70,17 @@ section.top5 {
 
 footer { 
     font-family: "Spline Sans", sans-serif;
-    position: static ;
-    bottom: auto;
+    position: fixed;
+    bottom: 0;
     left: 0%;
     width: 100%;
-    background-color:#efead5;
+    bottom: 0;
     color: black;
+    background-color: #efead5;
 }
 
-div.contact a{
-    text-decoration: none;
+div.contact a {
+    text-decoration: underline;
     color: black;
-    bottom: 0;
+    padding: 10px;
 }

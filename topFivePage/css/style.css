@@ -1,3 +1,7 @@
+html{
+    background-color: #efead5;
+}
+
 body {
     font-family: "Spline Sans", sans-serif;
     background-color: #e6bed5;
@@ -10,9 +14,40 @@ nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
     text-decoration: none;
-    padding: 35px;
+    padding: 45px;
     align-items: center;
     color: black;
+}
+
+nav {
+    color: black;
+    display: inline-flex;
+    gap: 30px;
+}
+
+nav a:hover {
+    color: #e6bed5;
+}
+
+section.home {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
+
+section.inspirations {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
+
+section.top5 {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
 }
 
 p {
@@ -63,7 +98,6 @@ h4 a{
 }
 
 footer { 
-    position: fixed ;
     bottom: 0;
     left: 0%;
     width: 100%;

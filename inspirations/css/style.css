@@ -1,18 +1,53 @@
+html{
+    background-color: #efead5;
+}
+
 body {
     font-family: "Spline Sans", sans-serif;
     background-color: #e6bed5;
-    padding-left: 70px;
-    padding-right: 70px;
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
     text-decoration: none;
-    padding: 35px;
+    padding: 45px;
     align-items: center;
     color: black;
+}
+
+nav {
+    color: black;
+    display: inline-flex;
+    gap: 30px;
+}
+
+nav a:hover {
+    color: #e6bed5;
+}
+
+section.home {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
+
+section.inspirations {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
+
+section.top5 {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
 }
 
 p {
@@ -23,22 +58,27 @@ p {
 }
 
 section.meipang{
-    display: inline-block;
-    padding-left: 5%
+    font-size: 20px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
 }
 
 section.billieeilish {
-     display: inline-block;
-    padding-left: 5%
+   font-size: 20px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
 }
 
 section.bookcovers{
-   display: inline-block;
-    padding-left: 5%
+  font-size: 20px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
 }
 
 footer { 
-    position: fixed ;
     bottom: 0;
     left: 0%;
     width: 100%;
