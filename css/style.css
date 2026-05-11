@@ -47,8 +47,15 @@ section.top5 {
     color: black;
     background-color: #efead5;
     border: #000000 solid 1px;
+
 }
 
+section.photography {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
 
 body {
     font-family: "Spline Sans", sans-serif;

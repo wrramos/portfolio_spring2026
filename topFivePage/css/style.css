@@ -51,6 +51,13 @@ section.top5 {
     border: #000000 solid 1px;
 }
 
+section.photography {
+    padding: 5px;
+    color: black;
+    background-color: #efead5;
+    border: #000000 solid 1px;
+}
+
 h1 {
     
     font-size: 25px;
