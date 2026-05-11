@@ -60,6 +60,9 @@ body {
 
 section.meipang{
     font-size: 20px;
+    border: #efead5 solid 3px;
+    border-style: dotted;
+    padding: 5px;
     color: black;
     display: inline-flex;
     align-items: center;
@@ -67,6 +70,8 @@ section.meipang{
 
 section.billieeilish {
    font-size: 20px;
+   border: #efead5 solid 3px;
+    border-style: dotted;
     color: black;
     display: inline-flex;
     align-items: center;
@@ -74,6 +79,8 @@ section.billieeilish {
 
 section.bookcovers{
   font-size: 20px;
+  border: #efead5 solid 3px;
+    border-style: dotted;
     color: black;
     display: inline-flex;
     align-items: center;
