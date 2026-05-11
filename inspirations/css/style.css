@@ -2,14 +2,6 @@ html{
     background-color: #efead5;
 }
 
-body {
-    font-family: "Spline Sans", sans-serif;
-    background-color: #e6bed5;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
 nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
@@ -50,12 +42,14 @@ section.top5 {
     border: #000000 solid 1px;
 }
 
-p {
+body {
     font-family: "Spline Sans", sans-serif;
-    font-size: 20px;
-    color: black;
-    display: block;
+    background-color: #e6bed5;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
 
 section.meipang{
     font-size: 20px;
@@ -79,9 +73,19 @@ section.bookcovers{
 }
 
 footer { 
+    font-family: "Spline Sans", sans-serif;
+    font-size: 15px ;
+    position: fixed;
     bottom: 0;
     left: 0%;
     width: 100%;
-    background-color:#efead5;
+    bottom: 0;
     color: black;
+    background-color: #efead5;
+}
+
+div.contact a {
+    text-decoration: underline;
+    color: black;
+    padding: 10px;
 }

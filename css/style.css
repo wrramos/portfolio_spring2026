@@ -8,23 +8,6 @@ h1 {
     color: black;
 }
 
-body {
-    font-family: "Spline Sans", sans-serif;
-    background-color: #e6bed5;
-    text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-section.bio {
-    font-family: "Spline Sans", sans-serif;
-    font-size: 20px;
-    color: black;
-    display: inline-flex;
-    align-items: center;
-
-}
-
 nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
@@ -67,9 +50,25 @@ section.top5 {
 }
 
 
+body {
+    font-family: "Spline Sans", sans-serif;
+    background-color: #e6bed5;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+section.bio {
+    font-family: "Spline Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+}
 
 footer { 
     font-family: "Spline Sans", sans-serif;
+    font-size: 15px;
     position: fixed;
     bottom: 0;
     left: 0%;
