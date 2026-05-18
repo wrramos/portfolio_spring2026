@@ -10,6 +10,15 @@ h1 {
     color: black;
 }
 
+nav {
+    color: black;
+    display: inline-flex;
+    gap: 2em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 nav a {
     font-family: "Bowlby One", sans-serif;
     text-transform : lowercase;
@@ -19,16 +28,9 @@ nav a {
     color: black;
 }
 
-nav {
-    color: black;
-    display: inline-flex;
-    gap: 2em;
-}
-
 nav a:hover {
     color: #e6bed5;
 }
-
 
 section.home {
     padding: 0.3em;
@@ -65,8 +67,8 @@ body {
     font-family: "Spline Sans", sans-serif;
     background-color: #e6bed5;
     text-align: center;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding: 0;
+    margin: 0;
 }
 
 section.bio {
@@ -77,6 +79,8 @@ section.bio {
     display: inline-flex;
     align-items: center;
     gap: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 footer { 
@@ -96,11 +100,15 @@ div.contact a {
     padding: 0.75em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 200px) {
     html {
         font-size: 70%;
     }
     section.bio {
         flex-direction: column;
     }
+    nav{
+        flex-direction: column;
+    }
+
 }
