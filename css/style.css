@@ -107,11 +107,14 @@ div.contact a {
     }
 
     section.bio {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
 
     nav{
         flex-direction: column;
+        justify-content: flex-end;
     }
 
 
