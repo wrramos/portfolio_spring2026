@@ -111,6 +111,10 @@ div.contact a {
         justify-content: center;
     }
 
+    section.bio img {
+        width: 50%;
+    }
+
 
     nav{
         flex-direction: column;

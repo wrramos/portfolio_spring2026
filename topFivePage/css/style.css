@@ -72,31 +72,60 @@ h2 {
     color: black;
 }
 
+h3 {
+    font-family: "Spline Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
 section.makeup{
-    display: inline-block;
+    display: inline-flex;
     padding-left: 5%
 }
-section.movies img{
-    display: inline-block;
-}
-
-section.movies ol{
+section.movies {
+    display: inline-flex;
     text-decoration: none;
-    display: inline-block;
     text-align: left;
-    padding-left: 5%
+    padding-left: 5%;
+    gap: 20px;
 }
 
-#grandbudapesthotel a{
+section.intersteller{
+    display: inline-block;
+    border:#efead5 dotted 3px;
+    padding: 5px;
+}
+
+section.lalaland{
+    display: inline-block;
+    border:#efead5 dotted 3px;
+    padding: 5px;
+}
+
+section.thebatman{
+    display: inline-block;
+    border:#efead5 dotted 3px;
+    padding: 5px;
+}
+
+section.sinners{
+    display: inline-block;
+    border:#efead5 dotted 3px;
+    padding: 5px;
+}
+
+section.grandbudapesthotel{
+    display: inline-block;
+    border:#efead5 dotted 3px;
+    padding: 5px;
+}
+
+section.grandbudapesthotel a{
     text-decoration: none;
     color: black;
 }
 
-h4 a{
-    color: black;
-    text-decoration: none; 
-    text-decoration: underline;
-}
 
 footer { 
     font-family: "Spline Sans", sans-serif;
