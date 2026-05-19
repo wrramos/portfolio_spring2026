@@ -85,14 +85,19 @@ body {
 
   section.photoOne {
     animation: slideAcross infinite 40s;
+    display: inline-flex;
+    gap: 2em;
   
 }
 
 section.photoTwo {
     animation: slideLeft infinite 40s;
-  
+    display: inline-flex;
+    gap: 2em;
 }
 
 section.photoThree {
     animation: slideAcross infinite 40s;
+    display: inline-flex;
+    gap: 2em;
 }
