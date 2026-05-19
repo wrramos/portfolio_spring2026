@@ -64,3 +64,35 @@ body {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+@keyframes slideAcross {
+    from {
+      transform: translateX(-70%);
+    }
+    to {
+      transform: translateX(50%);
+    }
+  }
+
+@keyframes slideLeft {
+    from {
+      transform: translateX(70%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  section.photoOne {
+    animation: slideAcross infinite 40s;
+  
+}
+
+section.photoTwo {
+    animation: slideLeft infinite 40s;
+  
+}
+
+section.photoThree {
+    animation: slideAcross infinite 40s;
+}
